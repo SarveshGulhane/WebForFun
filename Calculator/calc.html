@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="calc.css" media="screen" />
+    <link rel="icon" href="images/calc.jpg" type="image/icon type">
+</head>
+
+<body>
+    <div id='cal-area'>
+        <form name="calculator">
+            <output></output>
+            <table class="center">
+                <tr>
+                    <td>
+                        <input type="text" id="display" disabled>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="button" class="num_but" value="7" onclick="calculator.display.value += '7'"></button>
+                        <input type="button" class="num_but" value="8" onclick="calculator.display.value += '8'"></button>
+                        <input type="button" class="num_but" value="9" onclick="calculator.display.value += '9'"></button>
+                        <input type="button" class="op_but" value="/" onclick="calculator.display.value += '/'"></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" class="num_but" value="4" onclick="calculator.display.value += '4'"></button>
+                        <input type="button" class="num_but" value="5" onclick="calculator.display.value += '5'"></button>
+                        <input type="button" class="num_but" value="6" onclick="calculator.display.value += '6'"></button>
+                        <input type="button" class="op_but" value="*" onclick="calculator.display.value += '*'"></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" class="num_but" value="1" onclick="calculator.display.value += '1'"></button>
+                        <input type="button" class="num_but" value="2" onclick="calculator.display.value += '2'"></button>
+                        <input type="button" class="num_but" value="3" onclick="calculator.display.value += '3'"></button>
+                        <input type="button" class="op_but" value="-" onclick="calculator.display.value += '-'"></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" class="num_but" value="0" onclick="calculator.display.value += '0'"></button>
+                        <input type="button" class="op_but" value="C" onclick="calculator.display.value = ''"></button>
+                        <input type="button" class="op_but" value="=" onclick="calculator.display.value = eval(calculator.display.value)"></button>
+                        <input type="button" class="op_but" value="+" onclick="calculator.display.value += '+'"></button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+
+</html>
