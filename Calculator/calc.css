@@ -60,7 +60,7 @@ button {
 input {
     border-radius: 16px;
     color: rgb(111, 211, 236);
-    background-color: #1976d2;
+    background-color: rgb(25, 118, 210);
     border: 0;
     cursor: pointer;
     margin: 0.25em;
@@ -72,9 +72,11 @@ input {
 }
 
 input[type=text] {
-    width: 97.5%;
+    width: 96.6%;
     border-radius: 48px;
-    font-size: 20px;
+    font-size: 27px;
+    background-color: rgb(111, 211, 236);
+    color: rgb(25, 118, 210);
 }
 
 input[type=button]:active {
